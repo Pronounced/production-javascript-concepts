@@ -19,7 +19,7 @@ const quiz = function()
     console.log(ans = question('4. What color does mixing blue and yellow create?'));
     if(ans === 'green') score++;
 
-    console.log('Score: ${score}');
+    console.log(`Score: ${score}`);
 }
 
 quiz();
